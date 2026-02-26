@@ -10,5 +10,8 @@ pure awesomeness
 
 <img width="1219" height="604" alt="image" src="https://github.com/user-attachments/assets/e88c49fc-3d7a-45d8-bc6b-668fb6836c14" />
 
+<img width="1183" height="405" alt="image" src="https://github.com/user-attachments/assets/7b88776a-5949-465b-b392-ff27e0f279dc" />
+
+
 
 
