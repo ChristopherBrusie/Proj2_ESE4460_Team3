@@ -13,24 +13,35 @@ pure awesomeness
 # Rotation about the x-axis by angle θ
 Rx = [
    [1, 0, 0, 0],
+   
    [0, cos(θ), -sin(θ), 0],
+   
    [0, sin(θ), cos(θ), 0],
+   
    [0, 0, 0, 1]
 ]
 # Rotation about the y-axis by angle θ
 Ry = [
    [cos(θ), 0, sin(θ), 0],
+   
    [0, 1, 0, 0],
+   
    [-sin(θ), 0, cos(θ), 0],
+   
    [0, 0, 0, 1]
 ]
 # Rotation about the z-axis by angle θ
 Rz = [
    [cos(θ), -sin(θ), 0, 0],
+   
    [sin(θ), cos(θ), 0, 0],
+   
    [0, 0, 1, 0],
+   
    [0, 0, 0, 1]
 ]
+
+
 R = Rz(γ) @ Ry(β) @ Rx(α)
 
 
