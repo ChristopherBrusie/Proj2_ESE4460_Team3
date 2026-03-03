@@ -62,8 +62,8 @@ function visualize_stanford_arm(q)
            0, 0,  0, 1];
            
     T34 = [cos(j4), -sin(j4), 0, 0;
-           0,        0,       1, 0;
-          -sin(j4), -cos(j4), 0, 0;
+           sin(j4),       cos(j4),       0, 0;
+           0, 0, 1, 0;
            0,        0,       0, 1];
            
     T45 = [cos(j5), -sin(j5), 0, 0;
@@ -72,8 +72,8 @@ function visualize_stanford_arm(q)
            0,        0,       0, 1];
            
     T56 = [cos(j6), -sin(j6), 0, 0;
-           0,        0,       1, 0;
-          -sin(j6), -cos(j6), 0, 0;
+           0,        0,       -1, 0;
+          sin(j6), cos(j6), 0, 0;
            0,        0,       0, 1];
 
     % --- Global Transformations ---
